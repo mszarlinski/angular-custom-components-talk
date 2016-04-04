@@ -1,0 +1,17 @@
+<h1>Car configurator</h1>
+<div class="panel panel-default">
+    <form name="colorPickerForm">
+        <div class="form-group horizontal-form">
+            <label>Select make</label>
+            <select ng-model="vm.make" class="form-control" required>
+                <option></option>
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+
+            <label>Select color</label>
+            <input color-picker ng-model="vm.color" class="form-control" required>
+        </div>
+    </form>
+</div>
